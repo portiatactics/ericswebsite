@@ -45,8 +45,8 @@ a:focus-visible {
   width: 100%;
   max-height: 100vh;
   aspect-ratio: 16 / 9;
+  border: 0;
   background: #000;
-  object-fit: contain;
 }
 
 .video-title {
@@ -87,6 +87,15 @@ a:focus-visible {
 .links a:hover,
 .links a:focus-visible {
   color: var(--text);
+}
+
+/* Bio */
+
+.bio {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 4rem 1rem 0;
+  font-size: 1.25rem;
 }
 
 /* Recipe */
